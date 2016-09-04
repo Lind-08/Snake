@@ -10,23 +10,11 @@ namespace Snake
     {
         private static void Main(string[] args)
         {
-            int x1 = 1;
-            int y1 = 3;
-            char sym1 = '*';
-            WriteSymbol(x1, y1, sym1);
-
-            int x2 = 4;
-            int y2 = 5;
-            char sym2 = '#';
-            WriteSymbol(x2, y2, sym2);
-
+            Point p1 = new Point(1, 3, '*');
+            p1.Draw();
+            Point p2 = new Point(4, 5, '#');
+            p2.Draw();
             Console.ReadKey();
-        }
-
-        private static void WriteSymbol(int x, int y, char sym)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
         }
     }
 }
