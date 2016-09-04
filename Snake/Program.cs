@@ -13,6 +13,9 @@ namespace Snake
 
             HorizontalLine line = new HorizontalLine(4, 6, 4, '*');
             line.Draw();
+
+            VerticalLine line1 = new VerticalLine(4, 6, 3, '+');
+            line1.Draw();
             Console.ReadKey();
         }
     }
