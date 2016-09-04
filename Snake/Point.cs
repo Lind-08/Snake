@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Snake
 {
     internal class Point
     {
-        public int x;
-        public int y;
-        public char sym;
+        private int x;
+        private int y;
+        private char sym;
 
         public Point()
         {
